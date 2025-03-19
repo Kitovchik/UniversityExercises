@@ -1,2 +1,3 @@
 #pragma once
-void first_exercise();
+void firstExercise();
+void secondExercise();
