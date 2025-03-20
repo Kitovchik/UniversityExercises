@@ -8,7 +8,7 @@ int main()
 	int number;
 	while (1)
 	{
-		cout << "Enter number of exercise, what you need(from 0 to 1): ";
+		cout << "Enter number of exercise, what you need(from 0 to 2): ";
 		cin >> number;
 		if (number == 0)
 		{
@@ -17,6 +17,10 @@ int main()
 		else if (number == 1)
 		{
 			secondExercise();
+		}
+		else if (number == 2)
+		{
+			thirthExercise();
 		}
 	}
 }

@@ -1,5 +1,7 @@
 #include <iostream>
 #include <math.h>
+#include <locale>;
+#include "windows.h";
 
 
 using namespace std;
@@ -40,3 +42,31 @@ void secondExercise()
 		cout << "Answer: y = " << y << endl;
 	}
 }
+
+void thirthExercise()
+{
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+	int number;
+	cout << "Enter number from 1 to 5" << endl;
+	cin >> number;
+	switch (number)
+	{
+	case 1:
+		cout << "Погано" << endl;
+		break;
+	case 2:
+		cout << "Незадовільно" << endl;
+		break;
+	case 3:
+		cout << "Задовільно" << endl;
+		break;
+	case 4:
+		cout << "Добре" << endl;
+		break;
+	case 5:
+		cout << "Відмінно" << endl;
+		break;
+	}
+}
+
