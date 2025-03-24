@@ -26,19 +26,19 @@ void secondExercise()
 	{
 		cout << "Please, enter number from 0 to 10" << endl;
 	}
-	else if (x == floatNumber)
-	{
-		y = 7.1 * x - 5.6;
-		cout << "Answer: y = " << y << endl;
-	}
-	else if (x <= 5)
+	if (x <= 5)
 	{
 		y = x - 1;
 		cout << "Answer: y = " << y << endl;
 	}
-	else if (5 < x && x <= 10)
+	if (5 < x && x <= 10)
 	{
 		y = 3 * pow(x, 2) + 4;
+		cout << "Answer: y = " << y << endl;
+	}
+	else if (x == floatNumber)
+	{
+		y = 7.1 * x - 5.6;
 		cout << "Answer: y = " << y << endl;
 	}
 }
